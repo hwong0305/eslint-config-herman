@@ -25,7 +25,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'prettier', 'html'],
   rules: {
-    'react/prop-type': 'off',
+    'react/prop-types': 'off', // Not needed for typescript
     'react/display-name': 'off',
     'no-shadow': 1,
     'no-useless-return': 2,
