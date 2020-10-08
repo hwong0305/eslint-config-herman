@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-c0d3",
+  "name": "eslint-config-herman",
   "version": "1.0.0",
   "description": "A ESLint Configuration for c0d3.com",
   "main": "index.js",
