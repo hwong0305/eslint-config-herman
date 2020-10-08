@@ -22,7 +22,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['react', '@typescript-eslint', 'prettier', 'html'],
   rules: {
     'react/prop-type': 'off',
     'react/display-name': 'off',
