@@ -29,7 +29,7 @@ module.exports = {
     'react/display-name': 'off',
     'no-shadow': 1,
     'no-useless-return': 2,
-    'prefer-destructuring': 1,
+    'prefer-destructuring': ['warn', { object: true, array: false }],
     'prefer-template': 2,
     'prettier/prettier': [
       'error',
