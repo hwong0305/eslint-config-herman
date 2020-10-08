@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-herman",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A ESLint Configuration for c0d3.com",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "@typescript-eslint/parser": "^4.4.0",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-html": "^6.1.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
