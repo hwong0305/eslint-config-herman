@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-herman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A ESLint Configuration for c0d3.com",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   ],
   "author": "Herman Wong <hwong.0305@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
     "eslint": "^7.10.0",
@@ -44,6 +44,5 @@
     "eslint-plugin-react-hooks": "^4.1.2",
     "prettier": "^2.1.2",
     "typescript": "^4.0.3"
-  },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  }
 }
