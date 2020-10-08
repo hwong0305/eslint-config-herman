@@ -26,6 +26,10 @@ module.exports = {
   rules: {
     'react/prop-type': 'off',
     'react/display-name': 'off',
+    'no-shadow': 1,
+    'no-useless-return': 2,
+    'prefer-destructuring': 1,
+    'prefer-template': 2,
     'prettier/prettier': [
       'error',
       {
